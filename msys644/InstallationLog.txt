@@ -1,0 +1,180 @@
+************************************* Invoked: Thu Jun 27 12:36:29 2024
+[0] Arguments: C:\Users\AES\Downloads\msys2-x86_64-20240507.exe
+[6] Operations sanity check succeeded.
+[13] Using metadata cache from "C:/Users/AES/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: en-CA
+[50] Loaded control script ":/metadata/installer-config/control_js.js"
+[50] Using control script: ":/metadata/installer-config/control_js.js"
+[1689] Fetching latest update information...
+[1701] Loading component scripts...
+[3428] TargetDirectoryInUse : Error : The directory you selected already exists and contains an installation. Choose a different target for installation.
+[12326] backup  operation: Mkdir
+[12326] 	- arguments: C:/msys644
+[12326] Done
+[12327] perform  operation: Mkdir
+[12327] 	- arguments: C:/msys644
+[12327] Done
+[12328] Preparing the installation...
+[12328] Install size: 1 components
+[12343] Preparing to unpack components...
+[12344] backup com.msys2.root concurrent operation: Extract
+[12344] 	- arguments: installer://com.msys2.root/20240507msys64.7z, C:/msys644
+[12344] Started
+[12905] Unpacking components...
+[12905] perform com.msys2.root concurrent operation: Extract
+[12905] 	- arguments: installer://com.msys2.root/20240507msys64.7z, C:/msys644
+[12905] Started
+[67726] Installing component MSYS2
+[67727] backup com.msys2.root operation: CreateShortcut
+[67727] 	- arguments: C:/msys644/mingw32.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MINGW32.lnk, iconPath=C:/msys644/mingw32.exe
+[67727] Done
+[67727] perform com.msys2.root operation: CreateShortcut
+[67727] 	- arguments: C:/msys644/mingw32.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MINGW32.lnk
+[67819] Done
+[67819] backup com.msys2.root operation: CreateShortcut
+[67819] 	- arguments: C:/msys644/mingw64.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MINGW64.lnk, iconPath=C:/msys644/mingw64.exe
+[67819] Done
+[67819] perform com.msys2.root operation: CreateShortcut
+[67819] 	- arguments: C:/msys644/mingw64.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MINGW64.lnk
+[67863] Done
+[67863] backup com.msys2.root operation: CreateShortcut
+[67863] 	- arguments: C:/msys644/ucrt64.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 UCRT64.lnk, iconPath=C:/msys644/ucrt64.exe
+[67863] Done
+[67863] perform com.msys2.root operation: CreateShortcut
+[67863] 	- arguments: C:/msys644/ucrt64.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 UCRT64.lnk
+[67908] Done
+[67908] backup com.msys2.root operation: CreateShortcut
+[67908] 	- arguments: C:/msys644/clang64.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 CLANG64.lnk, iconPath=C:/msys644/clang64.exe
+[67908] Done
+[67909] perform com.msys2.root operation: CreateShortcut
+[67909] 	- arguments: C:/msys644/clang64.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 CLANG64.lnk
+[67953] Done
+[67953] backup com.msys2.root operation: CreateShortcut
+[67953] 	- arguments: C:/msys644/clangarm64.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 CLANGARM64.lnk, iconPath=C:/msys644/clangarm64.exe
+[67953] Done
+[67953] perform com.msys2.root operation: CreateShortcut
+[67953] 	- arguments: C:/msys644/clangarm64.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 CLANGARM64.lnk
+[67997] Done
+[67997] backup com.msys2.root operation: CreateShortcut
+[67997] 	- arguments: C:/msys644/msys2.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MSYS.lnk, iconPath=C:/msys644/msys2.exe
+[67997] Done
+[67997] perform com.msys2.root operation: CreateShortcut
+[67997] 	- arguments: C:/msys644/msys2.exe, C:\Users\AES\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2/MSYS2 MSYS.lnk
+[68041] Done
+[68042] backup com.msys2.root operation: Execute
+[68042] 	- arguments: C:/msys644\usr\bin\bash.exe, --login, -c, exit
+[68042] Done
+[68042] perform com.msys2.root operation: Execute
+[68042] 	- arguments: C:/msys644\usr\bin\bash.exe, --login, -c, exit
+[68122] C:/msys644\\usr\\bin\\bash.exe" started, arguments: "--login -c exit
+[69616] Copying skeleton files.\nThese files are for the users to personalise their msys2 experience.\n\nThey will never be overwritten nor automatically updated.\n\n
+[69760] './.bashrc' -> '/home/AES/.bashrc'\n
+[69810] './.bash_logout' -> '/home/AES/.bash_logout'\n
+[69858] './.bash_profile' -> '/home/AES/.bash_profile'\n
+[69906] './.profile' -> '/home/AES/.profile'\n
+[70119] 'C:\\Windows\\system32\\drivers\\etc\\hosts' -> '/etc/hosts'\n
+[70252] 'C:\\Windows\\system32\\drivers\\etc\\protocol' -> '/etc/protocols'\n
+[70393] 'C:\\Windows\\system32\\drivers\\etc\\services' -> '/etc/services'\n
+[70536] 'C:\\Windows\\system32\\drivers\\etc\\networks' -> '/etc/networks'\n
+[72662] ==> Generating pacman master key. This may take some time.\n
+[75057] ==> Updating trust database...\n
+[75442] ==> Appending keys from msys2.gpg...\n
+[76634] ==> Locally signing trusted keys in keyring...\n
+[77531]   -> Locally signed 5 keys.\n
+[77577] ==> Importing owner trust values...\n
+[77700] ==> Disabling revoked keys in keyring...\n
+[78207]   -> Disabled 4 keys.\n
+[78237] ==> Updating trust database...\n
+[87594] \x1B[H\x1B[2J\x1B[3J
+[87616] Warning: [1;32mMSYS2 is starting for the first time. Executing the initial setup.[1;0m
+gpg: /etc/pacman.d/gnupg/trustdb.gpg: trustdb created
+gpg: no ultimately trusted keys found
+gpg: starting migration from earlier GnuPG versions
+gpg: porting secret keys from '/etc/pacman.d/gnupg/secring.gpg' to gpg-agent
+gpg: migration succeeded
+gpg: Generating pacman keyring master key...
+gpg: directory '/etc/pacman.d/gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/etc/pacman.d/gnupg/openpgp-revocs.d/B99052C13C2FB9C133C491338A0BDDE66896C622.rev'
+gpg: Done
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   5  signed:   7  trust: 0-, 0q, 0n, 5m, 0f, 0u
+gpg: depth: 2  valid:   4  signed:   2  trust: 4-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2024-10-07
+gpg: error retrieving 'alexey.pawlow@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: F40D263ECA25678A
+gpg: error retrieving 'david.macek.0@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: 790AE56A1D3CFDDC
+gpg: error retrieving 'martellmalone@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: DA7EF2ABAEEA755C
+gpg: error retrieving 'reiter.christoph@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: 755B8182ACD22879
+gpg: error retrieving 'icquinteiro@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: 9F418C233E652008
+gpg: error retrieving 'mingw.android@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: BBE514E53E0D0813
+gpg: error retrieving 'alexpux@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: 5F92EFC1A47D45A1
+gpg: error retrieving 'david.macek.0@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: 974C8BE49078F532
+gpg: error retrieving 'reiter.christoph@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: FA11531AA0AA7F57
+gpg: error retrieving 'me@martellmalone.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: 794DCF97F93FC717
+gpg: error retrieving 'martellmalone@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: D595C9AB2C51581E
+gpg: error retrieving 'mingw.android@gmail.com' via WKD: Try again later
+gpg: error reading key: Try again later
+gpg: refreshing 1 key from hkps://keyserver.ubuntu.com
+gpg: keyserver refresh failed: Try again later
+==> ERROR: Could not update key: 4DF3B7664CA56930
+[1;32mInitial setup complete. MSYS2 is now ready to use.[1;0m
+
+[87616] Done
+[88673] Writing maintenance tool: "C:/msys644/uninstall.exe.new"
+[88674] Writing maintenance tool.
+[88850] Wrote permissions for maintenance tool.
+[89383] Maintenance tool hard restart: false.
+[89385] Installation finished!
+[93211] starting "C:/msys644/ucrt64.exe" QList()
